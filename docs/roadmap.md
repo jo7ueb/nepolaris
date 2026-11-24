@@ -72,3 +72,24 @@
 - 設計決定は必要に応じてADRを残す。
 - 個別Issueの依存関係はIssue本文で明示する。
 - 個人の金融データはIssue、PR、CIログ、テストfixtureに投稿しない。
+
+## 実行チケット（2026-11-24起票）
+
+| Phase | Issue | 作業 |
+| --- | --- | --- |
+| P0 | [#1](https://github.com/jo7ueb/nepolaris/issues/1) | 会計方針・ADR |
+| P0 | [#2](https://github.com/jo7ueb/nepolaris/issues/2) | 技術選定・Docker開発基盤 |
+| P1 | [#3](https://github.com/jo7ueb/nepolaris/issues/3) | 複式簿記ドメインモデル |
+| P1 | [#4](https://github.com/jo7ueb/nepolaris/issues/4) | 仕訳・訂正・元帳 |
+| P1 | [#5](https://github.com/jo7ueb/nepolaris/issues/5) | 試算表・B/S・期間収支 |
+| P2 | [#6](https://github.com/jo7ueb/nepolaris/issues/6) | CSV取込 |
+| P2 | [#7](https://github.com/jo7ueb/nepolaris/issues/7) | 振替・分類 |
+| P2 | [#8](https://github.com/jo7ueb/nepolaris/issues/8) | 残高照合 |
+| P3 | [#9](https://github.com/jo7ueb/nepolaris/issues/9) | 月末評価と調整仕訳 |
+| P3 | [#10](https://github.com/jo7ueb/nepolaris/issues/10) | 月次締め・再オープン |
+| P4 | [#11](https://github.com/jo7ueb/nepolaris/issues/11) | 財務ダッシュボード |
+| P4 | [#12](https://github.com/jo7ueb/nepolaris/issues/12) | 操作UI |
+| P4 | [#13](https://github.com/jo7ueb/nepolaris/issues/13) | バックアップ・復元・エクスポート |
+| P4 | [#14](https://github.com/jo7ueb/nepolaris/issues/14) | エンドツーエンド受入テスト |
+
+初期着手候補は **#1（会計方針レビュー）と #2（環境構築）**。前者の結論を踏まえて #3 へ進む。
